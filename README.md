@@ -4,8 +4,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+- [Acknowledgment](#acknowledgment)
 
 ## About <a name = "about"></a>
 
@@ -39,7 +38,7 @@ To install Flask, you just need to type the following command in your OS/IDE ter
 pip install Flask
 ```
 
-## Acknowledgment <a name = "usage"></a>
+## Acknowledgment <a name = "acknowledgment"></a>
 
 Thank you for visiting this project. 
 I hope that I could help you by any way with it. 
