@@ -1,4 +1,4 @@
-# Second module
+# Advanced module
 
 ## Functional programming
 Lambda functions.

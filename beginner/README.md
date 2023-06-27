@@ -1,4 +1,4 @@
-# First module
+# Beginner module
 
 ## Basic Python concepts
 Syntax and code structure in Python.
