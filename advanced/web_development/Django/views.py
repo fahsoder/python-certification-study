@@ -10,13 +10,13 @@ def user_list(request):
         users = [{'user_id': 1, 'name': 'John Doe', 'age': 30}, {'user_id': 2, 'name': 'Jane Smith', 'age': 25}]
         return JsonResponse(users, safe=False)
 
-    elif request.method == 'POST':
+    if request.method == 'POST':
         # Create a new user based on request data
         data = request.POST
         # Process and store the new user data
 
         # Return a JSON response
-        response = {'message': 'User created successfully'}
+        response = {'message': 'User created successfully', 'data': data}
         return JsonResponse(response, status=201)  # 201 - Created status code
 
 @csrf_exempt
@@ -29,16 +29,16 @@ def user_detail(request, user_id):
         response = {'user_id': user_id, 'name': 'John Doe', 'age': 30}
         return JsonResponse(response)
 
-    elif request.method == 'PUT':
+    if request.method == 'PUT':
         # Update an existing user with the given user_id
         data = request.POST
         # Process and update the user data
 
         # Return a JSON response
-        response = {'message': f'User {user_id} updated successfully'}
+        response = {'message': f'User {user_id} updated successfully, data: {data}'}
         return JsonResponse(response)
 
-    elif request.method == 'DELETE':
+    if request.method == 'DELETE':
         # Delete an existing user with the given user_id
         # Process and delete the user data
 
