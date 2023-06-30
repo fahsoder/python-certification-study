@@ -28,15 +28,6 @@ Monitoring directory changes.
 Interacting with databases using SQL and Python.
 Using Object-Relational Mapping (ORM) libraries like SQLAlchemy.
 
-## Automated testing
-Using testing frameworks like unittest, pytest, or doctest.
-Unit testing and integration testing.
-Code coverage and testing best practices.
-
-## Web scraping and automation
-Using libraries like BeautifulSoup and Selenium to extract information from the web.
-Automating tasks with Python scripts.
-
 ## Web development
 Web frameworks like Django or Flask.
 Handling HTTP requests and responses.
