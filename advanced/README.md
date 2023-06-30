@@ -32,12 +32,3 @@ Using Object-Relational Mapping (ORM) libraries like SQLAlchemy.
 Web frameworks like Django or Flask.
 Handling HTTP requests and responses.
 Building RESTful APIs.
-
-## Data science and analysis
-Libraries like NumPy, pandas, and matplotlib.
-Data analysis and manipulation.
-Data visualization.
-
-
-
-
